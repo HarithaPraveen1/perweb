@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+          
+            <h1>Web Developer</h1>
+            <ul id="menu">
+                <li><a href="#home"><span>H</span>ome</a></li>
+                <li><a href="#about"><span>A</span>bout</a></li>
+                <li><a href="#services"><span>S</span>ervices</a></li>
+                <li><a href="#portfolio"><span>P</span>ortfolio</a></li>
+                <li><a href="#testimonials"><span>T</span>estimonials</a></li>
+                <li><a href="#contact"><span>C</span>ontact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </li>
+            </ul>
+           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <div id="body">
+       <div class="bodyleft">
+           
+            <h1> Hi! I am Haritha<br>A Self-Directed Web Designer</h1>
+        </div>
+        <div class="bodyright">
+            <img src="Images/HarithaPic.webp" class="img-thumbnail">
+        </div>
+       
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
+                </div>
+                <div class="col2">
+                  
+                    <h1><span>A</span>bout <span>M</span>e</h1>
+                    <p>Mtech computer science.
+                        Strong creative and design
+                        talents, as well as a strong work
+                        ethic. A good team member is
+                        willing to accept mistakes and
+                        replace them effectively.</p>
+
+                    <div class="title">
+                        <p class="tablinks activelink" onclick="opentab('skills')"><span>S</span>kills</p>
+                    
+                        <p class="tablinks" onclick="opentab('education')"><span>E</span>ducation</p>
+                    </div>
+
+                    <div class="tabcontents activetab" id="skills">
+                        <ul>
+                            <li>Web Designing</li>
+                                    <li>- HTML</li> 
+                                    <li>- CSS</li> 
+                                    <li>- Js</li> 
+                                    <br>  
+                            <li>Programming</li>
+                                    <li>- C</li>
+                                    <li>- Java</li><br>
+                            
+                        </ul>
+                    </div>
+
+                   
+
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            
+                            <li>2015-2017</li>
+                            <li>MEA Engineering College, India</li>
+                            <li>Master of Technology</li><br>
+                            <li>2011-2015</li>
+                            <li>MEA Engineering College, India</li>
+                            <li>Bachelor of Technology</li>
+
+                        </ul>
+                            
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1>Services</h1>
+            <div class="serviceslist">
+                <div>
+
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+              
+                    <p>Welcome to a world of creative digital transformation! As a seasoned web designer, I offer more than just code and pixels – I craft immersive online experiences that captivate, engage, and convert. With an innate passion for aesthetics and a keen eye for user-centric design, I specialize in bringing visions to life. Whether it's designing sleek and intuitive user interfaces, ensuring responsive and mobile-friendly experiences, or optimizing for search engines, my services encompass the full spectrum of modern web design.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Welcome to a world of creative digital transformation! As a seasoned web designer, I offer more than just code and pixels – I craft immersive online experiences that captivate, engage, and convert. With an innate passion for aesthetics and a keen eye for user-centric design, I specialize in bringing visions to life. Whether it's designing sleek and intuitive user interfaces, ensuring responsive and mobile-friendly experiences, or optimizing for search engines, my services encompass the full spectrum of modern web design.</p>
+                </div>
+               
+            </div>
+        </div>
+
+               
+                
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1>My Projects</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="Images/scrnsht1.webp">
+                    <div class="layer">
+                        <h3>Netflix_Home_Clone</h3>
+                        <p>Netflix_Home_Clone is just only a Clone Homepage Page of Netflix, which specifies different attributes on the Netflix Homepage.</p>
+                        <a href="https://harithapraveen1.github.io/Netflix/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/scrnsht2.webp" alt="">
+                    <div class="layer">
+                        <h3>Swiggy_Home_Clone</h3>
+                        <p>Swiggy_Home_Clone is just only a Clone Homepage Page of Swiggy, which specifies different attributes on the Swiggy Homepage.</p>
+                        <a href="https://harithapraveen1.github.io/Swiggy/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">SeeMore</a>
+        </div>
+    </div>
+
+<div id="testimonials">
+    <div class="container">
+        <h1>Testimonials</h1>
+        <div class="testslide">
+            <div class="wrapper">
+                <div class="box">
+                    <img src="Images/user-1.png">
+                    <p>"I had the pleasure of exploring the "Amazone-Clone" homepage, and I must say, it's an impressive piece of work! The attention to detail is evident from the moment you land on the page. The layout is clean and intuitive, mirroring the familiar design of the original Amazon website."</p>
+                    <h3>Praveen</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="testslide">
+            <div class="wrapper">
+                <div class="box">
+                    <img src="Images/user-2.png">
+                    <p>"Your web designing is simply impressive! The way you blend style with functionality is a game-changer. Each site feels like a captivating journey, where every click is a delight. Your attention to detail and knack for responsive design make your work stand head and shoulders above the rest."</p>
+                    <h3>Haridas</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="testslide">
+            <div class="wrapper">
+                <div class="box">
+                    <img src="Images/user-3.png">
+                    <p> "I had the privilege of experiencing your teaching services, and I must say, they are exceptional. Your commitment to fostering a dynamic learning environment is evident in every interaction. Your ability to simplify complex concepts and engage learners of all backgrounds is a great."</p>
+                    <h3>Sunitha</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>harithavara45@gmail.com</p>
+                 <p><i class="fa-solid fa-phone"></i>5146214033</p>
+                <div class="socialicons">
+                    <a href="https://www.facebook.com/harithavara45@gmail.com"><i class="fa-brands fa-facebook"></i></a>
+                   
+                    <a href="https://www.instagram.com/i_m_haritha/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/HarithaPraveen1"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Images/HARITHA.pdf" download="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contactright">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> made with Haritha H</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tablinks");
+    var tabcontents = document.getElementsByClassName("tabcontents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("activelink");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("activetab");
+        }
+        event.currentTarget.classList.add("activelink");
+        document.getElementById(tabname).classList.add("activetab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("menu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyFLcfHNUqFBp61ZUkl2BFDLRJ9VDw2Ihkarfnw1O5RXVVlfGCM2kODddvFPA_qdol1/exec'
+    const form = document.forms['submit-to-google-sheet']
+    constmsg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
